@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp" android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="#333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/Mstu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="128dp"
+            android:minHeight="@dimen/height"
+            android:textSize="13dp" />
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号"
+            android:textColor="#333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/Mstu_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="128dp"
+            android:minHeight="@dimen/height"
+            android:textSize="13dp" />
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="0.8dp" android:background="#aaa"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成绩"
+            android:textColor="#333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/stu_grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="128dp"
+            android:minHeight="@dimen/height"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="取消">
+
+        </Button>
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="确认">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

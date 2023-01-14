@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyNFC</string>
+    <string name="message_write_error">写入失败！</string>
+    <string name="message_write_success">写入成功！</string>
+    <string name="message_write_progress">正在写入。。。</string>
+    <string name="message_tag_detected">发现标签！</string>
+
+    <string name="message_tap_tag">请靠近标签！</string>
+    <string name="message_write_tag">写入标签</string>
+    <string name="message_read_tag">读取标签</string>
+
+    <string name="searching">寻签中…</string>
+    <string name="reading">读签中…</string>
+    <string name="writing">写签中…</string>
+
+    <string name="defaultID">123456789</string>
+    <string name="defaultOwner">张三</string>
+    <string name="defaultOwnerPhone">16666666666</string>
+
+    <string name="nfc_image">Nfc Image</string>
+    <string name="id_message">标签号: </string>
+    <string name="owner_message">姓名: </string>
+    <string name="owner_phone_message">电话号码: </string>
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="height">20dp</dimen>
+</resources>
