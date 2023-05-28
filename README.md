@@ -1,5 +1,5 @@
 # MyNFC
-基于Android的RFID读写器 **(详细介绍请移步：https://www.cocobronie.cn/)**
+基于Android的RFID读写器 **(详细介绍请移步我的博客：https://www.cocobronie.cn/)**
 
 ### 实验要求
 基于任意一种13.56MHz通信技术，使用包括(但不限于)手机的任意一种RFID读写器，使用老师派发（但不限于）的任意一张RFID卡片，针对任意应用场景，构建一个RFID应用系统，实现对卡片数据的读写。
